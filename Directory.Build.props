@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>12.0</LangVersion>
+    <Nullable>warnings</Nullable>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+
+    <!-- Set debug type to full so that the stacktrace actually contains line information. -->
+    <DebugType Condition="'$(Configuration)' == 'Debug'">full</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(MSBuildProjectExtension)' == '.csproj'">
+    <Compile Include="$(MSBuildThisFileDirectory)\CommonAssemblyInfo.cs" Link="Properties\CommonAssemblyInfo.cs" />
+  </ItemGroup>
+</Project>
