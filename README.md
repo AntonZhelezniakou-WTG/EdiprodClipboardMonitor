@@ -1,6 +1,6 @@
 # Ediprod clipboard monitor
 
-Automatic replacing the use of `[Copy_ediProd_link_to_MS_Teams](https://devops.wisetechglobal.com/wtg/CargoWise/_wiki/wikis/CargoWise.wiki/2481/Use-Work-Item-Links-in-MS-Teams)`.
+Automatic replacing the use of [`Copy_ediProd_link_to_MS_Teams`](https://devops.wisetechglobal.com/wtg/CargoWise/_wiki/wikis/CargoWise.wiki/2481/Use-Work-Item-Links-in-MS-Teams).
 
 The application runs minimized in the system tray and monitors the clipboard. When a hyperlink to a `work item` (**WI**) is copied to the clipboard, the application automatically converts the copied link into a format suitable for use in MS Teams, just as `Copy_ediProd_link_to_MS_Teams` does.
 
